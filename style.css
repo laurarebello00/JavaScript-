@@ -1,7 +1,20 @@
 :root{
-    --cor-de-fundo: #1e1e1e;
+    --cor-de-fundo: #FA6E3B;
     --verde: #6fff57;
-    --botao-ativado:#3a3756;
+    --botao-ativado:##EEB7AB;
     --botao-inativado: rgba(58,55,94,0.5);
     --texto-fundo: rgba(58,55,94,0.3);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: white;
+}
+
+botao{
+    background-color: var(--botao-ativado);
+    color: white;
+}
+h1{
+    font-family: "Merriweather", serif;
 }
